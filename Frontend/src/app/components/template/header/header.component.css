@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.style-font  {
+    font-family: 'Merienda', cursive;
+
+}
+
+.header > span > a {
+    color: #3F51B5;
+    }
+
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}

@@ -1,0 +1,36 @@
+
+
+.card {
+    width: 70%;
+    margin: 40px auto auto auto;
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: center;
+}
+mat-card-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+mat-card-content > div label {
+    font-weight: 300;
+    font-size: 1.5625rem;
+}
+
+hr {
+    border: solid 0.0313rem #3F51B5;
+}
+
+mat-card-content div {
+    margin-top: 10px;
+}
+
+mat-card-content > div span {
+    font-weight: 300;
+    font-size: 1.5625rem;
+    color: #3F51B5;
+}
+

@@ -1,0 +1,24 @@
+<mat-card class="container">
+    <mat-card-title>Criar sala de reunião</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="room.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Data" [(ngModel)]="room.date" name="date">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Hora de início" [(ngModel)]="room.startHour" name="startHour">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Hora final" [(ngModel)]="room.endHour" name="endHour">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createRoom()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()" >
+        Cancelar
+    </button>
+</mat-card>

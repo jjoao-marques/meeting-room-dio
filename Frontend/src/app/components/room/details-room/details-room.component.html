@@ -1,0 +1,36 @@
+<mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>Detalhes da sala de reunião: {{ room.id }}</mat-card-title>
+    </mat-card-header>
+    <hr>
+    <mat-card-content>
+      <div>
+          <label>Nome da sala de reunião: </label> 
+          <span>
+            {{ room.name }}
+        </span>
+      </div>
+      <div>
+        <label>Data da reunião: </label> 
+            <span>
+                {{ room.date }}
+            </span>
+    </div>
+    <div>
+        <label>Hoora de início: </label>
+        <span>
+            {{ room.startHour }}
+        </span>
+    </div>
+    <div>
+        <label>Hoora final: </label>
+        <span>
+            {{ room.endHour }}
+        </span>
+    </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-flat-button color="primary" (click)="backToList()">Voltar</button>
+    </mat-card-actions>
+  </mat-card>
+  
